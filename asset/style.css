@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  height: 130px;
+  background: #000;
+  position: relative; }
+  .header .hot-line {
+    display: flex;
+    position: absolute;
+    left: 150px;
+    top: 0; }
+    .header .hot-line .number {
+      margin-right: 120px; }
+      .header .hot-line .number p {
+        font-size: 12px;
+        color: #fff; }
+        .header .hot-line .number p span {
+          color: red; }
+    .header .hot-line .addres p {
+      font-size: 12px;
+      color: #fff; }
+      .header .hot-line .addres p span {
+        color: #1FB539; }
+  .header .logo {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -32px); }
+    .header .logo a {
+      text-decoration: none; }
+      .header .logo a img {
+        width: 350px; }
+
+.nav-top {
+  position: sticky;
+  top: 0;
+  height: 50px;
+  width: 100%;
+  border-top: solid 2px #1FB539;
+  background: #000; }
+  .nav-top .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; }
+    .nav-top .menu ul {
+      text-transform: capitalize;
+      height: 100%;
+      list-style: none; }
+      .nav-top .menu ul li :hover {
+        background: #61CE70;
+        height: 100%; }
+      .nav-top .menu ul li a {
+        font-weight: 400;
+        font-size: 18px;
+        color: #fff;
+        text-decoration: none; }
+
+.hero-carousel {
+  border-top: solid 1px #fff; }
+  .hero-carousel a img {
+    height: 420px; }
+
+.owl-dots {
+  color: sienna;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%, 0px); }

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 130px;
+    background: #000;
+    position: relative;
+
+    // hotline start
+    .hot-line{
+        display: flex;
+        position: absolute;
+        left: 150px;
+        top: 0;
+
+        .number{
+            margin-right: 120px;
+            p{
+                font-size: 12px;
+                color: #fff;
+                span{
+                    color: red;
+                }
+            }
+
+        }
+
+        .addres{
+            p{
+                font-size: 12px;
+                color: #fff;
+                span{
+                    color: #1FB539;
+                }
+            }
+        }
+
+    }
+    // hotline end, logo start
+    .logo{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -32px);
+        a{
+            text-decoration: none;
+
+            img{
+                width: 350px;
+                
+            }
+        }
+    }
+    // logo end
+    
+
+}
+// header end, nav-top
+.nav-top{
+    position: sticky;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    border-top: solid 2px #1FB539;
+    background: #000;
+
+    .menu{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        ul{
+            text-transform: capitalize;
+            height: 100%;
+            list-style: none;
+            li{
+
+                :hover{
+                    background: #61CE70;
+                    height: 100%;
+                }
+
+                a{
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: #fff;
+                    text-decoration: none;
+                }
+                
+            }
+        }
+    }
+
+}  
+// nav-top end
+
+.hero-carousel{
+    border-top: solid 1px #fff;
+    a{
+        img{
+            height: 420px;
+        }
+    }
+}
+
+.owl-dots{
+    color: sienna;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%,0px);
+}
+// hero-carousel end
