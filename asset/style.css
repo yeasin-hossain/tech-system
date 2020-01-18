@@ -71,3 +71,11 @@
     background: rgba(134, 212, 143, 0.644); }
   .carousel-indicators li:hover {
     background: rgba(134, 212, 143, 0.644); }
+
+.carousel-control-next-icon {
+  position: absolute;
+  right: 30px; }
+
+.carousel-control-prev-icon {
+  position: absolute;
+  left: 30px; }

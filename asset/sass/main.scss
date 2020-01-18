@@ -117,11 +117,19 @@
         &.active{
             background: rgba(134, 212, 143, 0.644);
         }
+
         &:hover{
             background: rgba(134, 212, 143, 0.644);
         }
     }
 }
-
-
+.carousel-control-next-icon{    
+    position: absolute;
+    right: 30px;
+    
+}
+.carousel-control-prev-icon{
+    position: absolute;
+    left: 30px;
+}
 // hero-carousel end
