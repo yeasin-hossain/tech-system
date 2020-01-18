@@ -57,14 +57,17 @@
         color: #fff;
         text-decoration: none; }
 
-.hero-carousel {
-  border-top: solid 1px #fff; }
-  .hero-carousel a img {
-    height: 420px; }
+.carousel-item img {
+  height: 420px; }
 
-.owl-dots {
-  color: sienna;
-  position: absolute;
-  bottom: 30px;
-  left: 50%;
-  transform: translate(-50%, 0px); }
+.carousel-indicators li {
+  background: rgba(81, 240, 102, 0.432);
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: none; }
+  .carousel-indicators li.active {
+    background: rgba(134, 212, 143, 0.644); }
+  .carousel-indicators li:hover {
+    background: rgba(134, 212, 143, 0.644); }
