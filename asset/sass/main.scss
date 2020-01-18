@@ -64,6 +64,7 @@
     width: 100%;
     border-top: solid 2px #1FB539;
     background: #000;
+    z-index: 9999;
 
     .menu{
         
@@ -100,6 +101,7 @@
 
 
 .carousel-item{
+    border-top: solid 1px #fff;
     img{
         height: 420px;
     }
@@ -133,3 +135,87 @@
     left: 30px;
 }
 // hero-carousel end
+
+.course{
+
+    .course-header{
+        text-align: center;
+        height: 120px;
+        justify-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2{
+            color: #54595f;
+            text-transform: uppercase;
+        }
+        p{
+            color: #54595f;
+            font-weight: 500;
+        }
+    }
+    // course-header end
+    .all-course{
+        background: #DFFCFC;
+        height: 535px;
+        display: flex;
+        
+        .single-course{
+            width: 25%;
+            background:#fff ;
+            margin: 20px 20px;
+            border: solid 1px #1FB539;
+            position: relative;
+            border-radius: 5px;
+            text-align: center  ;
+                &:hover{
+                    box-shadow: 1px -1px 22px -2px rgba(0,0,0,0.75);
+                    transition: 200ms;
+            }
+            img{
+                height:300px ;
+                width: 100%;
+                border: solid 5px #fff;
+                border-radius: 10px;
+            }
+            .fee-date{
+                background: red;
+                position: absolute;
+                height: 33px;
+                width: 170px;
+                border-radius: 25px;
+                right: 25px;
+                top: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                    p{
+                        color: #fff;
+                        font-size: 13px;
+                        margin: 0;
+                }
+            }
+            h1{
+                font-size:20px;
+                margin-top: 25px;
+            }
+            p{
+                color: #616161;
+                margin-bottom: 50px;
+            }
+            a{
+                background: #000;
+                color: #fff;
+                padding:10px 15px ;
+                border-radius: 25px;
+                text-decoration: none;
+                margin-top: 50px;
+
+                    &:hover{
+                        background: #61CE70;
+                }
+            }
+        }
+    }
+
+}

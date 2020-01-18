@@ -38,7 +38,8 @@
   height: 50px;
   width: 100%;
   border-top: solid 2px #1FB539;
-  background: #000; }
+  background: #000;
+  z-index: 9999; }
   .nav-top .menu {
     display: flex;
     align-items: center;
@@ -57,8 +58,10 @@
         color: #fff;
         text-decoration: none; }
 
-.carousel-item img {
-  height: 420px; }
+.carousel-item {
+  border-top: solid 1px #fff; }
+  .carousel-item img {
+    height: 420px; }
 
 .carousel-indicators li {
   background: rgba(81, 240, 102, 0.432);
@@ -79,3 +82,68 @@
 .carousel-control-prev-icon {
   position: absolute;
   left: 30px; }
+
+.course .course-header {
+  text-align: center;
+  height: 120px;
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .course .course-header h2 {
+    color: #54595f;
+    text-transform: uppercase; }
+  .course .course-header p {
+    color: #54595f;
+    font-weight: 500; }
+
+.course .all-course {
+  background: #DFFCFC;
+  height: 535px;
+  display: flex; }
+  .course .all-course .single-course {
+    width: 25%;
+    background: #fff;
+    margin: 20px 20px;
+    border: solid 1px #1FB539;
+    position: relative;
+    border-radius: 5px;
+    text-align: center; }
+    .course .all-course .single-course:hover {
+      box-shadow: 1px -1px 22px -2px rgba(0, 0, 0, 0.75);
+      transition: 200ms; }
+    .course .all-course .single-course img {
+      height: 300px;
+      width: 100%;
+      border: solid 5px #fff;
+      border-radius: 10px; }
+    .course .all-course .single-course .fee-date {
+      background: red;
+      position: absolute;
+      height: 33px;
+      width: 170px;
+      border-radius: 25px;
+      right: 25px;
+      top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .course .all-course .single-course .fee-date p {
+        color: #fff;
+        font-size: 13px;
+        margin: 0; }
+    .course .all-course .single-course h1 {
+      font-size: 20px;
+      margin-top: 25px; }
+    .course .all-course .single-course p {
+      color: #616161;
+      margin-bottom: 50px; }
+    .course .all-course .single-course a {
+      background: #000;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 25px;
+      text-decoration: none;
+      margin-top: 50px; }
+      .course .all-course .single-course a:hover {
+        background: #61CE70; }
