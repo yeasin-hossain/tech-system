@@ -163,7 +163,7 @@
         .single-course{
             width: 25%;
             background:#fff ;
-            margin: 20px 20px;
+            margin: 25px 15px;
             border: solid 1px #1FB539;
             position: relative;
             border-radius: 5px;
@@ -218,4 +218,58 @@
         }
     }
 
+}
+// course end
+
+.facility{
+    position: relative;
+    display: flex ;
+    justify-content: center;
+    .in{
+        color: red;
+    .all-course{
+        height: 40px;
+        width: 190px;
+        border: solid 1px #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 25px;
+
+        a{
+            text-align: center;
+            text-decoration: none;
+            color: #000;
+            font-weight: 600;
+        }
+        
+    }
+    .intro{
+        
+        h2{
+            color: #54595f;
+            text-transform: uppercase;
+        }
+    }
+
+    .icon-s{
+        display: flex;
+        span{
+            margin: 30px;
+            box-sizing: border-box;
+            border: solid;
+            height: 100px;
+            width: 150px;
+            i{
+                font-size: 70px;
+                color: #61CE70;
+                align-items: center;
+            }
+            p{
+                text-align: center;
+                margin-top: 25px;
+            }
+        }
+    }
+}
 }

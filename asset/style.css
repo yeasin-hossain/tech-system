@@ -104,7 +104,7 @@
   .course .all-course .single-course {
     width: 25%;
     background: #fff;
-    margin: 20px 20px;
+    margin: 25px 15px;
     border: solid 1px #1FB539;
     position: relative;
     border-radius: 5px;
@@ -147,3 +147,41 @@
       margin-top: 50px; }
       .course .all-course .single-course a:hover {
         background: #61CE70; }
+
+.facility {
+  position: relative;
+  display: flex;
+  justify-content: center; }
+  .facility .in {
+    color: red; }
+    .facility .in .all-course {
+      height: 40px;
+      width: 190px;
+      border: solid 1px #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 25px; }
+      .facility .in .all-course a {
+        text-align: center;
+        text-decoration: none;
+        color: #000;
+        font-weight: 600; }
+    .facility .in .intro h2 {
+      color: #54595f;
+      text-transform: uppercase; }
+    .facility .in .icon-s {
+      display: flex; }
+      .facility .in .icon-s span {
+        margin: 30px;
+        box-sizing: border-box;
+        border: solid;
+        height: 100px;
+        width: 150px; }
+        .facility .in .icon-s span i {
+          font-size: 70px;
+          color: #61CE70;
+          align-items: center; }
+        .facility .in .icon-s span p {
+          text-align: center;
+          margin-top: 25px; }
