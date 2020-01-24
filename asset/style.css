@@ -151,37 +151,44 @@
 .facility {
   position: relative;
   display: flex;
-  justify-content: center; }
-  .facility .in {
-    color: red; }
-    .facility .in .all-course {
-      height: 40px;
-      width: 190px;
-      border: solid 1px #000;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 25px; }
-      .facility .in .all-course a {
-        text-align: center;
-        text-decoration: none;
-        color: #000;
-        font-weight: 600; }
-    .facility .in .intro h2 {
+  flex-direction: column;
+  align-items: center; }
+  .facility .all-course {
+    height: 40px;
+    width: 190px;
+    border: solid 1px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 40px; }
+    .facility .all-course a {
+      text-align: center;
+      text-decoration: none;
+      color: #000;
+      font-weight: 600; }
+  .facility .intro {
+    margin-top: 45px; }
+    .facility .intro h2 {
       color: #54595f;
       text-transform: uppercase; }
-    .facility .in .icon-s {
-      display: flex; }
-      .facility .in .icon-s span {
-        margin: 30px;
-        box-sizing: border-box;
-        border: solid;
-        height: 100px;
-        width: 150px; }
-        .facility .in .icon-s span i {
-          font-size: 70px;
-          color: #61CE70;
-          align-items: center; }
-        .facility .in .icon-s span p {
-          text-align: center;
-          margin-top: 25px; }
+  .facility .icon-s {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0; }
+    .facility .icon-s span {
+      margin: 30px;
+      box-sizing: border-box;
+      height: 100px;
+      width: 150px;
+      text-align: center; }
+      .facility .icon-s span i {
+        font-size: 70px;
+        color: #61CE70;
+        align-items: center; }
+      .facility .icon-s span p {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 19px;
+        font-weight: 500;
+        color: #616161; }
