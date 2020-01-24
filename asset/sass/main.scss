@@ -236,18 +236,24 @@
         align-items: center;
         border-radius: 25px;
         margin-top: 40px;
+        cursor: pointer;
+        transition: 300ms;
         a{
             text-align: center;
             text-decoration: none;
             color: #000;
             font-weight: 600;
         }
+        &:hover{
+            transform: scale(1.07,1.07);
+            transition: 300ms;
+        }
         
     }
 
     .intro{
         margin-top: 45px;
-        
+
         h2{
             color: #54595f;
             text-transform: uppercase;
@@ -257,7 +263,7 @@
     .icon-s{
         display: flex;
         justify-content: center;
-        margin: 100px 0;
+        margin: 150px 0;
         span{
             margin: 30px;
             box-sizing: border-box;
@@ -280,3 +286,4 @@
     }
 
 }
+// facility end
